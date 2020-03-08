@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebRTC APIs In Depth: getUserMedia</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>WebRTC APIs In Depth: getUserMedia</h1>
+        <label>Quality</label>
+        <select id="quality">
+            <option value="480">480p</option>
+            <option value="720">720p</option>
+            <option value="1080">1080p</option>
+        </select>
+        <button id="getMedia">Get Media</button>
+        <button id="changeMedia">Change Media</button>
+        <p id="settings"></p>
+        <video id="localvideo" autoplay />
+        <script src="main.js"></script>
+    </body>
+</html>

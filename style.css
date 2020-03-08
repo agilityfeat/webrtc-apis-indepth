@@ -1,0 +1,11 @@
+html {
+    margin: auto;
+}
+
+label, button, select {
+    display: block;
+}
+
+#changeMedia {
+    display: none;
+}
